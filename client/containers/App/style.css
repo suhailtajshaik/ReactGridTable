@@ -1,0 +1,25 @@
+html,body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.lCont {
+  height:80%;
+  background: red;
+}
+
+.rCont {
+  height:80%;
+  background: lightblue;
+}
+
+.App {
+  background: lightgrey;
+  text-align: center;
+}

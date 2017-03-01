@@ -1,0 +1,325 @@
+{
+   "project":{
+      "projectid":"701263",
+      "projectname":"2017 demo School",
+      "year":"2017",
+      "enrollment":"1000",
+      "deliveryseason":"Spring",
+      "salesprogram":"Marketplace - Home",
+      "salespackage":"Existing school",
+      "registraionmethod":"Open",
+      "imageshareuploads":"Enabled",
+      "uploadcode":"Eagles",
+      "exactquantitydate":"2\/01\/2017",
+      "personalaizationdate":"3\/01\/2017"
+   },
+   "bookspec":{
+      "pages":"412",
+      "copies":"1000",
+      "trimSize":"8",
+      "covermethod":"Hard Cover",
+      "personalizationmethod":"NameStamp",
+      "requstedshipdate":"5\/12\/2017",
+      "yearbooktool":"studiowprkds",
+      "preparationplant":"dallas",
+      "details":{
+         "yearbook":{
+            "levelofspecification":"yearbookspecification",
+            "productline":"spectra",
+            "trimsize":"7-3\/4 X 10-1\/2",
+            "deliveryseason":"Summer",
+            "pagepreparation":"studioworks",
+            "operatingsystems":"windows",
+            "imagesscannedby":"school",
+            "pagecount":"192",
+            "customerorderqunatity":"275",
+            "numberofcopies":"275",
+            "bindingmethod":"smyth",
+            "roundandback":"yes",
+            "contentspaper":"100# gloss",
+            "autographsection":"none",
+            "yearzine":"no",
+            "proofs":"no",
+            "convertspotcolors":"convertavailablespotcolors",
+            "numberofstiffcovers":"275",
+            "personalization":"foilstampednames",
+            "namesoffoilcolor":"silver",
+            "endsheet":{
+               "designmethod":"schooldesign",
+               "balfouronlinedesign":"yes",
+               "stock":"C1s(Coatedoneside) white",
+               "decorationlocations":"different design front & back",
+               "backstock":"C1s(Coatedoneside) white",
+               "qunatityforrun":"275"
+            }
+         },
+         "cover":{
+            "covermethod":"hard",
+            "numberofstiffcovers":"275",
+            "binderboards":".120 binder boards",
+            "hinge size(inches)":"1-13\/32",
+            "case setup)(mm)":"423mm",
+            "cover materail family":"lithocote",
+            "lithocode lamination":"gloss",
+            "materail cut size(mm)":"418x303",
+            "omitbalfourlogo":"no",
+            "design method":"schooldesign",
+            "spine copy":"yes",
+            "decoratiomnoption1":"foutrcolorprocess",
+            "coverproof":"yes",
+            "namesonvooks":"yes"
+         },
+         "endsheet":{
+            "balfouronlinedesignendsheet":"yes",
+            "designmethod":"schooldesign",
+            "decorationlocation":"differentdesignfront&back",
+            "endsheetstock":"C1s(Coatedoneside) white",
+            "decoratiomnoption1":"foutrcolorprocess",
+            "platepressmethod":"4color",
+            "digitalprintendsheet":"yes"
+         },
+         "endsheetbk":{
+            "balfouronlinedesignendsheet":"yes",
+            "designmethod":"schooldesign",
+            "decorationlocation":"differentdesignfront&back",
+            "endsheetstock":"C1s(Coatedoneside) white",
+            "decoratiomnoption1":"foutrcolorprocess",
+            "esbkpresscolor":"4\/C",
+            "backendsheetprpeplant":"dallas"
+         }
+      }
+   },
+   "school":{
+      "schoolname":"Legacy High School",
+      "grades":"9,10,11,12",
+      "billingaddressaddress":{
+         "street":"1263 North Main",
+         "city":"Mansfield",
+         "state":"Texas",
+         "zip":"76063",
+         "country":"US"
+      },
+      "shippingaddress":{
+         "street":"1263 North Main",
+         "city":"Mansfield",
+         "state":"Texas",
+         "zip":"76063",
+         "country":"US"
+      },
+      "phone":"(213) 617-0521",
+      "salesregion":"04 Texas\/Louisiana",
+      "salesoffice":"Cheryl Chrisman office"
+   },
+   "booksales":{
+      "totalordrs":"444",
+      "online":"441",
+      "oncampus":"11",
+      "total":"452",
+      "available":"548",
+      "exactquantity":"1000"
+   },
+   "deadlines":{
+      "cover":"03\/17\/2017",
+      "endsheet":"03\/17\/2017",
+      "32pages":"03\/13\/2017",
+      "40pages":"04\/10\/2017",
+      "56pages":"05\/08\/2017",
+      "24pages":"06\/05\/2017"
+   },
+   "contacts":[
+      {
+         "key":"1",
+         "name":"Balfour Support",
+         "desg":"Hotline",
+         "email":"techsupport@balfour.com",
+         "phone":"800-947-0526"
+      },
+      {
+         "key":"2",
+         "name":"Mr.John Doe",
+         "desg":"Sales Represenatative",
+         "email":"john.Doe@email.com",
+         "phone":"987-654-3210"
+      },
+      {
+         "key":"3",
+         "name":"Mr.John Doe",
+         "desg":"Account Executive",
+         "email":"jhon.Doe@email.com",
+         "phone":"987-654-3210"
+      },
+      {
+         "key":"4",
+         "name":"Mr.John Doe",
+         "desg":"Customer Service Represenatative (CSR)",
+         "email":"jhon.Doe@email.com",
+         "phone":"987-654-3210"
+      },
+      {
+         "key":"5",
+         "name":"Mr.John Doe",
+         "desg":"Adviser",
+         "email":"jhon.Doe@email.com",
+         "phone":"987-654-3210"
+      }
+   ],
+   "mail":{
+      "letter1":{
+         "date":"09\/09\/2016",
+         "personaltext":"-",
+         "pstext":"Order now for the lowest price on the 2017 yearbook!"
+      },
+      "letter2":{
+         "date":"10\/02\/201",
+         "personaltext":"-",
+         "pstext":"The price of the yearbook will increase in the New Year. Think you might already have ordered a book? Call 800-853-1337 to check."
+      }
+   },
+   "store":{
+      "storemethod":"Yearbook and Accesories",
+      "salestax":"8.25% Included in Price",
+      "salesstartdate":"8\/02\/2016",
+      "finalsaledate":"4\/01\/2016"
+   },
+   "personalization":{
+      "name":"Yearbook -2016 high School",
+      "trimsize":8,
+      "covermethod":"Hardcover",
+      "personalizationmethod":"NamePlates",
+      "pricing":[
+         {
+            "method":"normal",
+            "grades":[
+               9,
+               10,
+               11,
+               "faculty"
+            ],
+            "salesprice":36.95,
+            "tax":3.05,
+            "start":"12\/12\/2016",
+            "end":"12\/12\/2016"
+         },
+         {
+            "method":"Tired Pricing 1",
+            "grades":[
+               9,
+               10,
+               11,
+               "faculty"
+            ],
+            "salesprice":36.95,
+            "tax":3.05,
+            "start":"12\/12\/2016",
+            "end":"12\/12\/2016"
+         },
+         {
+            "method":"Tired Pricing 2",
+            "grades":[
+               9,
+               10,
+               11,
+               "faculty"
+            ],
+            "salesprice":36.95,
+            "tax":3.05,
+            "start":"12\/12\/2016",
+            "end":"12\/12\/2016"
+         },
+         {
+            "method":"Name Stamping",
+            "grades":[
+               "All"
+            ],
+            "salesprice":36.95,
+            "tax":3.05,
+            "start":"12\/12\/2016",
+            "end":"12\/12\/2016"
+         },
+         {
+            "method":"icons(up to 4)",
+            "grades":[
+               "All"
+            ],
+            "salesprice":36.95,
+            "tax":3.05,
+            "start":"12\/12\/2016",
+            "end":"12\/12\/2016"
+         }
+      ]
+   },
+   "accesories":[
+      {
+         "method":"autographsection",
+         "grades":[
+            "All"
+         ],
+         "salesprice":1.85,
+         "tax":0.15,
+         "start":"12\/12\/2016",
+         "end":"12\/12\/2016"
+      }
+   ],
+   "ads":[
+      {
+         "method":"fullpagead",
+         "grades":[
+            "All"
+         ],
+         "salesprice":36.95,
+         "tax":3.05,
+         "start":"12\/12\/2016",
+         "end":"12\/12\/2016"
+      },
+      {
+         "method":"2\/3pagead-4block",
+         "grades":[
+            "All"
+         ],
+         "salesprice":36.95,
+         "tax":3.05,
+         "start":"12\/12\/2016",
+         "end":"12\/12\/2016"
+      }
+   ],
+   "custom":[
+      {
+         "method":"seniordvd",
+         "grades":[
+            "All"
+         ],
+         "salesprice":36.95,
+         "tax":3.05,
+         "start":"12\/12\/2016",
+         "end":"12\/12\/2016"
+      }
+   ],
+   "packages":[
+      {
+         "method":"senioryearbook-2016legacyhighschool",
+         "grades":[
+            9,
+            10,
+            11,
+            "faculty"
+         ],
+         "salesprice":36.95,
+         "tax":3.05,
+         "start":"12\/12\/2016",
+         "end":"12\/12\/2016"
+      },
+      {
+         "method":"Tired Pricing 1",
+         "grades":[
+            9,
+            10,
+            11,
+            "faculty"
+         ],
+         "salesprice":36.95,
+         "tax":3.05,
+         "start":"12\/12\/2016",
+         "end":"12\/12\/2016"
+      }
+   ]
+}
