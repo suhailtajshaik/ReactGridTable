@@ -108,7 +108,7 @@ class OverviewHome extends Component {
 
   componentDidMount = () =>{
     console.log("Grid Refer",this.gridRef);
-    //this.gridRef.onToggleFilter()
+    this.gridRef.onToggleFilter()
   }
 
   render() {
@@ -133,7 +133,10 @@ class OverviewHome extends Component {
                   onClearFilters={this.onClearFilters}
                   rowRenderer={<RowRenderer selectCustomer = {this.props.selectCustomer} />}/>
               </div>
-              <div className = 'col-md-4'>
+              <div className = 'col-md-4' style={{background:'tan'}}>
+                  <div onClick ={()=>{this.props.requestData()}}>
+                      <label>This should be center </label>
+                  </div>
               </div>
               <div className = 'col-md-4'>
               </div>

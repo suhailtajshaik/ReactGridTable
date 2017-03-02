@@ -1,4 +1,7 @@
 export const SELECT_CUSTOMER = 'SELECT_CUSTOMER';
+export const FETCH_DATA = 'FETCH_DATA';
+export const FETCH_REQUESTED = 'FETCH_REQUESTED';
+export const DATA_FETCHED = 'DATA_FETCHED';
 
 export function selectCustomer(customer) {
   console.log('customer',customer);
@@ -7,25 +10,31 @@ export function selectCustomer(customer) {
     customer
   };
 }
-//
-// export function deleteTransaction(id) {
-//   return {
-//     type: DELETE_TRANSACTION,
-//     id
-//   };
-// }
-//
-// export function requestSum(data) {
-//   return {
-//     type: REQUEST_SUM,
-//     data
-//   };
-// }
-//
-// export function addTransaction(transaction) {
-//   return (dispatch, getState) => {
-//     const addedResult = dispatch(createTransaction(transaction));
-//     dispatch(requestSum(getState().transactions.transactions));
-//     return addedResult;
-//   };
-// }
+
+export function updateWithData(payLoad){
+    console.log("Fetch Completed with Data",payLoad);
+  return {
+    type: DATA_FETCHED,
+    payLoad
+  }
+}
+
+export function fetchRequested(){
+  console.log("Fetch Request Initiated");
+  return {
+    type: FETCH_REQUESTED,
+  }
+}
+
+
+
+export function requestData() {
+  return dispatch => {
+    dispatch(fetchRequested())
+    fetch(`https://api.myjson.com/bins/1566qh`)
+         .then(response => response.json())
+         .then(json =>
+           dispatch(updateWithData(json))
+         )
+    }
+}

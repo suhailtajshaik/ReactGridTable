@@ -14,11 +14,11 @@ const Tabs = require('../../components/common/Tabs')
 class App extends Component {
 
   render() {
-    console.log("props to App",this.props);
+
     return (
         <div className='App'>
             <div className='row'>
-                <OverviewHome projectInfo = {this.props.project} selectCustomer = {this.props.actions.selectCustomer}/>
+                <OverviewHome projectInfo = {this.props.project} selectCustomer = {this.props.actions.selectCustomer} requestData = {this.props.actions.requestData}/>
             </div>
         </div>
     );
