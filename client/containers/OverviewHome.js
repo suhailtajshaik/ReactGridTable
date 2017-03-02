@@ -116,17 +116,18 @@ class OverviewHome extends Component {
     return (
       <div className ='container-fluid'>
         <div className = 'row'>
-              <div className = 'col-md-4'>
+              <div className = 'col-md-4' style={{height:'100VH'}}>
                 <ReactDataGrid
                   ref = {(gridRef)=>{if(gridRef !=null){
                     this.gridRef = gridRef
                   }}}
+                  style={{height:'100VH'}}
                   onGridSort={this.handleGridSort}
                   enableCellSelect={true}
                   columns={this._columns}
                   rowGetter={this.rowGetter}
                   rowsCount={this.getSize()}
-                  minHeight={500}
+                  minHeight={'900'}
                   enableFilter ={true}
                   //toolbar={<Toolbar enableFilter={true}/>}
                   onAddFilter={this.handleFilterChange}
@@ -138,7 +139,8 @@ class OverviewHome extends Component {
                       <label>This should be center </label>
                   </div>
               </div>
-              <div className = 'col-md-4'>
+              <div className = 'col-md-4' style={{backgroundColor:'coral',height:'100VH'}}>
+
               </div>
         </div>
       </div>
